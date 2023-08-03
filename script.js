@@ -33206,7 +33206,7 @@
             id: GENERAL_ERR,
             category: COMMERCE_ERROR_CATEGORY.GENERAL,
             name: "General error",
-            copy: "Something went wrong when adding this item to the cart.",
+            copy: "Oops! An error occurred when adding items to the cart. Payment security isn't guaranteed. Please, thank you.",
             path: ["data", "commerce", GENERAL_ERR]
           },
           CHECKOUT: {
@@ -33247,7 +33247,7 @@
             id: ADD_TO_CART_GENERAL_ERR,
             category: COMMERCE_ERROR_CATEGORY.GENERAL,
             name: "Add to Cart error",
-            copy: "Something went wrong when adding this item to the cart.",
+            copy: "Oops! An error occurred when adding items to the cart. Payment security isn't guaranteed. Please, thank you.",
             path: ["data", "commerce", ADD_TO_CART_GENERAL_ERR]
           },
           MIXED_CART: {
@@ -33260,7 +33260,7 @@
             id: "BUY_NOW_ERROR",
             category: COMMERCE_ERROR_CATEGORY.GENERAL,
             name: "Buy now error",
-            copy: "Something went wrong when trying to purchase this item."
+            copy: "Oops! An error occurred when adding items to the cart. Payment security isn't guaranteed. Please, thank you."
           },
           CHECKOUT_DISABLED: {
             id: "CHECKOUT_DISABLED_ERROR",
@@ -33595,14 +33595,14 @@
           COMMERCE_BUY_NOW_BUTTON_DEFAULT: "Buy now",
           SUBSCRIPTION_BUTTON_DEFAULT: "Subscribe now",
           QUANTITY_ERROR: "Product is not available in this quantity.",
-          GENERAL_ERROR: "Something went wrong when adding this item to the cart.",
+          GENERAL_ERROR: "Oops! An error occurred when adding items to the cart. Payment security isn't guaranteed. Please, thank you.",
           CHECKOUT_ERROR: "Checkout is disabled on this site.",
           CART_ORDER_MIN_ERROR: "The order minimum was not met. Add more items to your cart to continue.",
           SUBSCRIPTION_ERR: "Before you purchase, please use your email invite to verify your address so we can send order updates.",
           ADD_TO_CART_QUANTITY_ERROR: "Product is not available in this quantity.",
-          ADD_TO_CART_GENERAL_ERROR: "Something went wrong when adding this item to the cart.",
+          ADD_TO_CART_GENERAL_ERROR: "Oops! An error occurred when adding items to the cart. Payment security isn't guaranteed. Please, thank you.",
           ADD_TO_CART_MIXED_ERROR: "You can\u2019t purchase another product with a subscription.",
-          BUY_NOW_ERROR: "Something went wrong when trying to purchase this item.",
+          BUY_NOW_ERROR: "Oops! An error occurred when adding items to the cart. Payment security isn't guaranteed. Please, thank you.",
           CHECKOUT_DISABLED_ERROR: "Checkout is disabled on this site.",
           SELECT_ALL_OPTIONS: "Please select an option in each set."
         };
