@@ -12,7 +12,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(../image/fast-food-dish-blue.jpg);
+    background: linear-gradient(to left, #0060ba, #3d92dc);
+    /* background: rgb(58, 124, 229); */
+    /* background: url(../image/fast-food-dish-blue.jpg); */
     background-size: cover;
 }
 .contact
